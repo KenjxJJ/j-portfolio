@@ -72,11 +72,15 @@ body {
     margin-bottom: -0.5rem;
 }
 
-.landing-role>p:nth-child(2) {
+
+.landing-role>p:nth-child(2) {  /* Role*/
     font-size: 75%;
-    /* font-weight: 600; */
+    margin-bottom: 0rem;
 }
 
+.role-links{
+     padding-top: 1.5rem;
+}
 .role-links div {
     border: 1px solid rgb(2, 2, 2);
     border-radius: 4px;
@@ -87,4 +91,23 @@ body {
 
 .role-links div:first-child {
     background-color: rgb(10, 10, 10);
+}
+
+.about-me{
+    color: black;
+}
+
+
+/* SKILLS */
+.tech-skills{
+    font-size: 45%;
+    margin-top: 0rem;
+}
+
+.tech-skills > .fab{
+    transform: unset;
+}
+
+.tech-skills > .fab::before{
+   margin-left: .45rem;
 }
