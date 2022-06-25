@@ -20,15 +20,21 @@ body {
     width: 10%;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
     text-align: center;
-    padding: 5.5rem 0rem;
-    height: 100%;    
+    padding: 5.5rem 0.5rem;
+    /* height: 100%;     */
     writing-mode: vertical-lr;
     text-orientation: sideways-right;
     align-items: center;
     transform: rotate(-180deg);
     background-color: rgba(255, 0, 0, 0.432);
+}
+
+.header > span{
+    display: inline-block;
+    margin-top: auto;
 }
 
 .follow-links > a{
@@ -43,7 +49,7 @@ body {
 }
 
 .line-separator {
-    height: 140px;
+    height: 20%;
     background-color: #fff;
     width: 2px;
 }
