@@ -1,15 +1,18 @@
+/* Import Custom Fonts -  GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@800&display=swap');
+
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
 body {
-    background-color: #444;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222325;
     height: 100vh;
-    color: #fff;
+    color: #F9F8F7;
     font-size: 1.1rem;
     display: flex;
     flex-direction: row;
@@ -29,17 +32,18 @@ body {
     text-orientation: sideways-right;
     align-items: center;
     transform: rotate(-180deg);
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: #75747391;
 }
 
-.header > span{
+.header>span {
     display: inline-block;
     margin-top: auto;
 }
 
-.follow-links > a{
+.follow-links>a {
     text-decoration: none;
 }
+
 .fab {
     font-size: 1.3rem;
     color: white;
@@ -51,15 +55,30 @@ body {
 .line-separator {
     height: 20%;
     background-color: #fff;
-    width: 2px;
+    width: 0.12rem;
 }
 
 
 /* Landing Text */
+h1,
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.brand {
+    word-spacing: .5rem;
+    letter-spacing: .1rem;
+}
+
 .landing {
     width: 90%;
     padding: 4rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.landing-container {
+    top: 15%;
+    position: absolute;
 }
 
 .intro-text {
@@ -67,47 +86,48 @@ body {
     font-size: 0.9rem;
 }
 
-.landing-role>p:first-child {
+.landing-role>h1:first-child {
     font-size: 250%;
     margin-bottom: -0.5rem;
 }
 
-
-.landing-role>p:nth-child(2) {  /* Role*/
-    font-size: 75%;
-    margin-bottom: 0rem;
+.landing-role>h2:nth-child(2) {
+    /* Role*/
+    font-size: 55%;
+    font-weight: 600;
+    /* color: #9699B0; */
+    margin-top: 1.7rem;
+    margin-bottom: -0.5rem;
 }
 
-.role-links{
-     padding-top: 1.5rem;
+.role-links {
+    padding-top: 1.5rem;
 }
+
 .role-links div {
-    border: 1px solid rgb(2, 2, 2);
+    border: 1px solid #757473;
     border-radius: 4px;
-    font-size: 75%;
+    font-size: 50%;
     display: inline-block;
     padding: 0.65rem 1.2rem;
 }
 
 .role-links div:first-child {
-    background-color: rgb(10, 10, 10);
-}
-
-.about-me{
-    color: black;
+    background-color: #757473;
 }
 
 
 /* SKILLS */
-.tech-skills{
+.tech-skills {
     font-size: 45%;
     margin-top: 0rem;
 }
 
-.tech-skills > .fab{
+.tech-skills>.fab {
     transform: unset;
+    color: #faf8f67e;
 }
 
-.tech-skills > .fab::before{
-   margin-left: .45rem;
+.tech-skills>.fab::before {
+    margin-left: .45rem;
 }
