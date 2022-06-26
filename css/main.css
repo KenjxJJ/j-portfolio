@@ -18,16 +18,43 @@ body {
     flex-direction: row;
 }
 
+.main {
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.main>* {
+    min-height: 40rem;
+    margin: 0;
+    padding: 4rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.landing {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* min-height: 30rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.landing-container {
+    width: 90%;
+    padding-top: 6.5rem;
+    padding-left:  4rem;
+}
+
+
 /* Landing Header */
 .header {
-    width: 10%;
+    width: 2.5rem;
     margin: 0;
     display: flex;
     flex-wrap: nowrap;
-    /* justify-content: space-between; */
     text-align: center;
-    padding: 5.5rem 0.5rem;
-    /* height: 100%;     */
+    padding: 5rem 0.5rem 7.5rem .6rem;
     writing-mode: vertical-lr;
     text-orientation: sideways-right;
     align-items: center;
@@ -39,9 +66,18 @@ body {
     display: inline-block;
     margin-top: auto;
 }
+.follow-tag{
+    font-size: 55%;
+}
 
 .follow-links>a {
     text-decoration: none;
+}
+
+.follow-links  .fab:hover,
+.follow-links  .fab:focus{
+    color: #222325;
+
 }
 
 .fab {
@@ -68,17 +104,6 @@ h3 {
 .brand {
     word-spacing: .5rem;
     letter-spacing: .1rem;
-}
-
-.landing {
-    width: 90%;
-    padding: 4rem;
-    font-size: 1.8rem;
-}
-
-.landing-container {
-    top: 15%;
-    position: absolute;
 }
 
 .intro-text {
