@@ -42,7 +42,7 @@ body {
 .landing-container {
     width: 90%;
     padding-top: 6.5rem;
-    padding-left:  4rem;
+    padding-left: 4rem;
 }
 
 
@@ -65,7 +65,8 @@ body {
     display: inline-block;
     margin-top: auto;
 }
-.follow-tag{
+
+.follow-tag {
     font-size: 55%;
 }
 
@@ -73,8 +74,9 @@ body {
     text-decoration: none;
 }
 
-.follow-links  .fab:hover,
-.follow-links  .fab:focus{
+/* First icons */
+.follow-links .fab:hover,
+.follow-links .fab:focus {
     color: #222325;
 
 }
@@ -166,37 +168,66 @@ h3 {
 }
 
 
-.project-work > *{
-    flex:  1 1 50%;
-    font-size: 70%;    
+.project-work>*{
+    flex: 1 1 50%;
+    font-size: 70%;
 }
-.project-illustration
-{
+
+.project-illustration {
     background-image: url('../assets/dev-sketch.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .projects-info {
     padding-left: 5.5rem;
     padding-top: 3rem;
 }
-.projects-info section{
-    padding-bottom:  0.5rem;
+
+.projects-info section {
+    padding-bottom: 0.5rem;
 }
+
 
 .projects-info p {
     margin-top: -1rem;
 }
+
 .projects-info h3 a {
     text-decoration: none;
     color: #757473;
 }
 
-.projects-info h3 a:hover{
+.projects-info h3 a:hover {
     opacity: 0.8;
     color: #222325;
 }
 
-.projects-info > p:last-child{
+.projects-info>p:last-child {
     padding-top: 1.5rem;
+}
+
+/* Contact Section */
+.contact {
+    min-height: 2rem;
+    font-size: 65%;
+    display: flex;
+    padding-bottom: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contact-info a {
+    text-decoration: none;
+    color: #F9F8F7;
+}
+.contact i {
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+.contact p {
+    margin-top: 0.8rem;
+}
+
+.copyright-info{
+    opacity: 0.7;
 }
