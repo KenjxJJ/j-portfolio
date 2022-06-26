@@ -27,7 +27,6 @@ body {
     min-height: 40rem;
     margin: 0;
     padding: 4rem;
-    border-bottom: 2px solid #ddd;
 }
 
 .landing {
@@ -155,4 +154,49 @@ h3 {
 
 .tech-skills>.fab::before {
     margin-left: .45rem;
+}
+
+
+/* Project Section */
+.project-work{
+    display: flex;
+    background-color: #F9F8F7;
+    color: #757473;
+    padding: unset;
+}
+
+
+.project-work > *{
+    flex:  1 1 50%;
+    font-size: 70%;    
+}
+.project-illustration
+{
+    background-image: url('../assets/dev-sketch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects-info {
+    padding-left: 5.5rem;
+    padding-top: 3rem;
+}
+.projects-info section{
+    padding-bottom:  0.5rem;
+}
+
+.projects-info p {
+    margin-top: -1rem;
+}
+.projects-info h3 a {
+    text-decoration: none;
+    color: #757473;
+}
+
+.projects-info h3 a:hover{
+    opacity: 0.8;
+    color: #222325;
+}
+
+.projects-info > p:last-child{
+    padding-top: 1.5rem;
 }
