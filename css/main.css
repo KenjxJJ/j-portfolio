@@ -97,6 +97,12 @@ body {
 
 
 /* Landing Text */
+
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1,
 h3 {
     font-family: 'Raleway', sans-serif;
@@ -158,17 +164,63 @@ h3 {
     margin-left: .45rem;
 }
 
+.profile-image {
+    position: relative;
+}
+
+.placeholder-profile-image {
+    border: 0.6rem solid #F9F8F7;
+    top: -15%;
+    right: 8%;
+    position: absolute;
+    height: 28rem;
+    width: 26rem;
+    z-index: 0;
+    background-image: url('../assets/IMG_1529.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.placeholder-two-behind {
+    width: 27rem;
+    z-index: -3;
+    height: 30rem;
+    background: #757473;
+    /* top: 0%;
+    right: 25%;
+    position: absolute; */
+}
+
+.placeholder-off-image,
+.placeholder-off-image-two {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: -30%;
+    top: 25%;
+    opacity: 0.1;
+    background-color: #f9f8f756;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.placeholder-off-image-two {
+    top: 40%;
+    width: 15.5rem;
+    height: 15.5rem;
+    left: -105%;
+    opacity: 0.1;
+}
 
 /* Project Section */
-.project-work{
+.project-work {
     display: flex;
     background-color: #F9F8F7;
     color: #757473;
     padding: unset;
+    flex-direction: row-reverse;
 }
 
-
-.project-work>*{
+.project-work>* {
     flex: 1 1 50%;
     font-size: 70%;
 }
@@ -216,18 +268,21 @@ h3 {
     justify-content: space-between;
     align-items: flex-end;
 }
+
 .contact-info a {
     text-decoration: none;
     color: #F9F8F7;
 }
+
 .contact i {
     display: inline-block;
     padding-right: 0.5rem;
 }
+
 .contact p {
     margin-top: 0.8rem;
 }
 
-.copyright-info{
+.copyright-info {
     opacity: 0.7;
 }
