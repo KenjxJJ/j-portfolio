@@ -175,10 +175,11 @@ h3 {
     position: absolute;
     height: 28rem;
     width: 26rem;
-    z-index: 0;
-    background-image: url('../assets/IMG_1529.JPG');
+    z-index: 4;
+    background-image: url('../assets/Kiggwe\ Joel.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .placeholder-two-behind {
@@ -209,6 +210,26 @@ h3 {
     height: 15.5rem;
     left: -105%;
     opacity: 0.1;
+}
+
+/* About Me Section */
+section.about-me{
+    background-color: #f9f8f7d5 ;
+    color: #222325;
+    padding: 2.4rem 12.5rem 6.9rem;
+    min-height: 15rem !important;
+    text-align: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.4rem;
+}
+section.about-me h2 {
+    margin-bottom: -15px;
+}
+
+section.about-me p{
+    font-size: 95%;
 }
 
 /* Project Section */
