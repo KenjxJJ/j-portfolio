@@ -8,9 +8,8 @@
     <title>KENJX</title>
 
     <!-- Fetch CDN Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <!--  Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
@@ -43,48 +42,51 @@
             <div class="landing-container">
                 <div>
                     <section class="landing-role">
-                        <h1><span class="intro-text">Hello, I am</span>
-                            <span class="brand">
+                        <h1><span class="intro-text fade-in">Hello, I am</span>
+                            <span class="brand slide-in-left">
                                 Joel Kiggwe
                             </span>
                         </h1>
                         <h2>Self-taught Web Developer</h2>
-                        <p class="tech-skills">
-                            <i class="fab fa-js" aria-hidden="true"></i>
-                            JavaScript
-                            <i class="fab fa-react" aria-hidden="true"></i>
-                            ReactJS
-                            <i class="fab fa-angular" aria-hidden="true"></i>
-                            Angular
-                            <i class="fab fa-python" aria-hidden="true"></i>
-                            Python/Django
+                        <p class="tech-skills text-shadow-drop-top">
+                            <i class="fab fa-js fade-in slide-in-bottom" aria-hidden="true"></i> JavaScript
+                            <i class="fab fa-react fade-in slide-in-bottom" aria-hidden="true"></i> ReactJS
+                            <i class="fab fa-angular fade-in slide-in-bottom" aria-hidden="true"></i> Angular
+                            <i class="fab fa-python fade-in slide-in-bottom" aria-hidden="true"></i> Python/Django
                         </p>
                     </section>
                     <section class="role-links">
-                        <div>Get Resume</div>
-                        <div class="about-me">About Me</div>
-                        <!-- TODO - LINK(https://drive.google.com/file/d/19H-gw-uwa62PS86deNhMrb3u6UpNCRW5/view?usp=sharing) -->
+                        <div class="">
+                            <a class="resume-link" href="https://drive.google.com/file/d/1fjdPP-NuRPDEDJu4JVFQOy0OF_MsKeJl/view?usp=share_link">
+                                Get Resume
+                            </a>
+                        </div>
+                        <div class="about-me fade-in">
+                            <a href="#about-me">
+                                About Me
+                            </a>
+                        </div>
                     </section>
                 </div>
                 <!-- Image -->
                 <div class="profile-image">
-                    <div class="placeholder-profile-image"></div>
+                    <div class="placeholder-profile-image shadow-drop-2-bottom"></div>
                     <div class="placeholder-two-behind"></div>
                     <div class="placeholder-off-image"></div>
                     <div class="placeholder-off-image-two"></div>
                 </div>
             </div>
         </section>
-        <section class="about-me">
-                <h2>
-                    About Me!
-                </h2>
-                <p>Joel Kiggwe, a passionate, determined person with a visual taste of the screen! Solving problems affecting the world through programming is a challenge he wants to take on as a career. He plays piano music in his local church, and loves Jesus.</p>
+        <section class="about-me" id="about-me">
+            <h2 class="focus-in-expand ">
+                About Me!
+            </h2>
+            <p class="slide-in-right">Joel Kiggwe, a passionate, determined person with a visual taste of the screen! Solving problems affecting the world through programming is a challenge he wants to take on as a career. He plays piano music in his local church, and loves Jesus.</p>
         </section>
         <section class="project-work">
             <div class="project-illustration"></div>
             <div class="projects-info">
-                <section>
+                <section class="slide-in-bottom">
                     <h3>
                         <a href="https://naughty-villani-82eb5a.netlify.app/">
                             CargoTracker
@@ -93,17 +95,7 @@
                     <p>A web application that tracks products for delivery.</p>
                 </section>
 
-                <section>
-                    <h3>
-                        <a href="https://react16-weather-app.netlify.app/">
-                            WeatherApp
-                        </a>
-                    </h3>
-                    <p>
-                        A ReactJS Application to show forecast weather.
-                    </p>
-                </section>
-                <section>
+                <section class="slide-in-bottom">
                     <h3>
                         <a href="https://janes_makeup.surge.sh/">
                             Janes' Makeup
@@ -114,7 +106,7 @@
                     </p>
                 </section>
 
-                <section>
+                <section class="slide-in-bottom">
                     <h3>
                         <a href="https://inote-site.netlify.app/">
                             NotesApp
@@ -132,8 +124,8 @@
         </section>
         <section class="contact">
             <div class="contact-info">
-                <h4>Contact Info</h4>
-                <p>
+                <h4>Contact Info : </h4>
+                <p class="fade-in">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                     <span>
                         <a href="mailto:joelkiggwe94@gmail.com">
@@ -141,7 +133,7 @@
                         </a>
                     </span>
                 </p>
-                <p>
+                <p class="fade-in">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <span>
                         +256771968370
@@ -149,7 +141,7 @@
                 </p>
             </div>
             <div class="copyright-info">
-                <p>
+                <p class="slide-in-right">
                     <i class="fa fa-copyright" aria-hidden="true"></i>2022 Joel Kiggwe
                 </p>
             </div>
