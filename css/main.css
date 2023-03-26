@@ -264,7 +264,6 @@ h3 {
 /* Project Section */
 
 .project-work {
-    display: flex;
     background-color: #f9f8f7;
     color: #757473;
     padding: unset;
@@ -274,12 +273,6 @@ h3 {
 .project-work>* {
     flex: 1 1 50%;
     font-size: 70%;
-}
-
-.project-illustration {
-    background-image: url("../assets/dev-sketch.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .projects-info {
@@ -295,21 +288,15 @@ h3 {
     margin-top: -1rem;
 }
 
-.projects-info h3 a {
-    text-decoration: none;
-    color: #757473;
-}
-
-.projects-info h3 a:hover {
-    opacity: 0.8;
-    color: #222325;
-}
-
 .projects-info>p:last-child {
     padding-top: 1.5rem;
     font-size: 75%;
     opacity: 0.85;
     font-weight: 800;
+}
+
+.projects-info>p:last-child .github-link {
+    color: #da7612;
 }
 
 
