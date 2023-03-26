@@ -88,7 +88,6 @@ body {
     font-size: 1.3rem;
     color: white;
     display: inline-block;
-    margin-top: 1rem;
     transform: rotate(90deg);
 }
 
@@ -187,7 +186,6 @@ h3 {
     display: inline-block;
     margin-left: 0.45rem;
     margin-right: 0.25rem;
-    padding-bottom: 0.5rem;
 }
 
 .fab::after {
@@ -247,24 +245,19 @@ h3 {
 
 /* About Me Section */
 
-section.about-me {
+.about-me-section {
     background-color: #f9f8f7d5;
     color: #222325;
-    padding: 2.4rem 12.5rem 6.9rem;
-    min-height: 15rem !important;
+    min-height: 20rem;
     text-align: center;
+    display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    line-height: 3.4rem;
 }
 
-section.about-me h2 {
-    margin-bottom: -15px;
-}
-
-section.about-me p {
-    font-size: 75%;
+.about-me-section h2 {
+    margin-bottom: 0px;
 }
 
 
