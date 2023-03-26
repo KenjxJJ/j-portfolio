@@ -1,4 +1,3 @@
-
 # Portfolio [Latest]
 
 Personal website to showcase some of the projects made.
@@ -11,7 +10,7 @@ Personal website to showcase some of the projects made.
 ## Deployment
 Use your favourite web server for html5 documents.
 ``` 
-cd k-portfolio/ 
+cd j-portfolio/ 
 
 ```
 
